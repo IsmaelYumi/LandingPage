@@ -123,6 +123,7 @@ a {
   .hero .hero-img-wrap {
     position: relative; }
     .hero .hero-img-wrap img {
+      height: 350px;
       position: relative;
       top: 0px;
       right: 0px;
@@ -149,7 +150,7 @@ a {
       position: absolute;
       width: 255px;
       height: 217px;
-      background-image: url("../images/dots-light.svg");
+      background-image: url();
       background-size: contain;
       background-repeat: no-repeat;
       right: -100px;
