@@ -150,7 +150,10 @@ a {
       position: absolute;
       width: 255px;
       height: 217px;
+<<<<<<< HEAD
       background-image: url();
+=======
+>>>>>>> b6926a38683805b41b8d425efe1b6648283ad40e
       background-size: contain;
       background-repeat: no-repeat;
       right: -100px;
