@@ -96,7 +96,7 @@ a {
         margin-right: 20px; }
 
 .hero {
-  background: rgb(209, 140, 140);
+  background: rgb(31, 15, 15);
   padding: calc(4rem - 30px) 0 0rem 0; }
   @media (min-width: 768px) {
     .hero {
@@ -118,7 +118,7 @@ a {
       .hero h1 {
         font-size: 54px; } }
   .hero p {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(231, 224, 224, 0.5);
     margin-botom: 30px; }
   .hero .hero-img-wrap {
     position: relative; }
@@ -150,10 +150,7 @@ a {
       position: absolute;
       width: 255px;
       height: 217px;
-<<<<<<< HEAD
       background-image: url();
-=======
->>>>>>> b6926a38683805b41b8d425efe1b6648283ad40e
       background-size: contain;
       background-repeat: no-repeat;
       right: -100px;
@@ -322,13 +319,14 @@ a {
     display: grid;
     -ms-grid-columns: (1fr)[27];
     grid-template-columns: repeat(27, 1fr);
-    position: relative; }
+    position: relative; 
+  }
+
     .we-help-section .imgs-grid:before {
       position: absolute;
       content: "";
       width: 255px;
       height: 217px;
-      background-image: url("../images/dots-green.svg");
       background-size: contain;
       background-repeat: no-repeat;
       -webkit-transform: translate(-40%, -40%);
