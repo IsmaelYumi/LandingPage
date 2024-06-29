@@ -35,5 +35,16 @@ let loaded = (eventLoaded) => {
       .catch((error) => console.error(error));
   });
 };
+async function ObtenerDatos(){
 
+  const url="https://pruebadatabase-19847-default-rtdb.firebaseio.com/collection.json"
+  const respuesta=await fetch(url)
+  if(!respuesta.ok){
+    console.log( "Error: ",respuesta.status);
+    return;
+  }
+  const datos=await respuesta.json();
+  console.log(datos)
+}
+ObtenerDatos();
 window.addEventListener("DOMContentLoaded", loaded);
